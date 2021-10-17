@@ -9,6 +9,10 @@
           height="200"
         />
       </v-col>
+      <v-btn
+        color="primary"
+        elevation="2"
+      >hloo</v-btn>
 
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">
