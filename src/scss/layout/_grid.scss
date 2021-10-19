@@ -1,0 +1,62 @@
+.b-g-main {
+    background-color: gainsboro;
+}
+.container-register {
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    text-align: center;
+    height: 80vh;
+    width: 60vw;
+    justify-self: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    align-content: center;
+    margin: 10vh auto 10vh auto;
+    border: darkgray solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 17px 0px #9ca8a6;
+    overflow-y: scroll;
+    scroll-snap-align: end;
+}
+.container-inner-register{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    justify-content: center;
+    margin: auto;
+
+}
+.in-line-form{
+    display: flex;
+    flex-direction: column;
+}
+.card-message {
+    // display: flex;
+    // justify-self: flex-end;
+    max-width: 75%;
+    // align-self: flex-end;
+}
+.container-chat-messages{
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 50vw;
+    width: 50vw;
+    justify-content: start;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    // margin-top: 20%;
+}
+.inherit-fb{
+    flex: inherit !important;
+}
+.delete-db {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
